@@ -5,7 +5,7 @@ int N = 14;
 
 int k = 0;
 Console.Write($"Вывод натуральных чисел от M до N: ");
-for (int i =0; i <= N-5 ; i++)
+for (int i =0; i <= N-M ; i++)
 {
     k = M + i;
     Console.Write($"{k} ");
